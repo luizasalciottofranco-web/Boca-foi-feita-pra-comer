@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+.topo{
+    width: 90%;
+    height: 10vh;
+    background-color: #51221d;
+    border-radius: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    gap: 200px;
+    margin-left: 75px;
+}
+
+.ajustes{
+    list-style: none;
+}
+
+.ajustes2{
+    display: flex;
+    gap: 80px;
+}
+
+.ajustes3{
+    color: white;
+    text-decoration: none;
+}
+
+.pagina1{
+    width: 100%;
+    height: 80vh;
+    background-image: url(img/Comidas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+}
+
+.ajustes4{
+    display: flex;
+    align-items: center;
+}
+
+.amarelo{
+    width: 100%;
+    height: 20vh;
+    background-color: #FFD670;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cardapio{
+    width: 100%;
+    height: 100vh;
+    color: #51221d;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px
+}
+
+.delivery{
+    width: 100%;
+    height: 30vh;
+    background-image: url(img/Fundo2.png);
+}
+
+.nossahistoria{
+    width: 100%;
+    height: 80vh;
+    padding-top: 30px;
+    padding-left: 80px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.comidas{
+    padding-top: 30px;
+    padding-right: 50px;
+}
+.txt{
+    padding-top: 79px;
+}
+.space{
+    width: 30%;
+    height: 600px;
+}
+
+.contato{
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+}
+
+.imgcontato{
+    width: 110px;
+    height: 125px;
+    padding-top: 15px;
+    padding-left:50px;
+}
